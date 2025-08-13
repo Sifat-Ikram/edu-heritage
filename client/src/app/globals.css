@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+@import "tailwindcss";
+
+.font-roboto {
+  font-family: "Roboto Slab", serif;
+}
+
+/* Base button styles */
+.buttons {
+  font-weight: 600;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  font-size: 14px;
+  padding: 8px 20px;
+}
+
+.nav-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.title-text {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.testimonial-position {
+  font-size: 11px;
+}
+
+.nav-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.paragraph-text {
+  font-size: 14px;
+}
+
+.leaflet-pane,
+.leaflet-map-pane,
+.leaflet-tile-pane,
+.leaflet-overlay-pane,
+.leaflet-shadow-pane,
+.leaflet-marker-pane,
+.leaflet-popup-pane {
+  z-index: 0 !important;
+}
+
+@media (min-width: 640px) {
+  .buttons {
+    font-size: 14px;
+    padding: 6px 16px;
+  }
+  .nav-title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .title-text {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .testimonial-position {
+    font-size: 11px;
+  }
+
+  .paragraph-text {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .buttons {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+  .testimonial-position {
+    font-size: 13px;
+  }
+
+  .paragraph-text {
+    font-size: 16px;
+  }
+  .nav-title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .title-text {
+    font-size: 22px;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 1000px) {
+  .nav-title {
+    font-size: 34px;
+    font-weight: 600;
+  }
+  .title-text {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .testimonial-position {
+    font-size: 16px;
+  }
+
+  .paragraph-text {
+    font-size: 20px;
+  }
+  .buttons {
+    font-size: 20px;
+    padding: 12px 28px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .nav-title {
+    font-size: 34px;
+    font-weight: 600;
+  }
+  .title-text {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .testimonial-position {
+    font-size: 16px;
+  }
+
+  .paragraph-text {
+    font-size: 20px;
+  }
+  .buttons {
+    font-size: 20px;
+    padding: 12px 28px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .nav-title {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .title-text {
+    font-size: 70px;
+    font-weight: 700;
+  }
+  .testimonial-position {
+    font-size: 30px;
+  }
+
+  .paragraph-text {
+    font-size: 40px;
+  }
+  .buttons {
+    font-size: 40px;
+    padding: 12px 28px;
+  }
+}
+
+/* === Apply Now button styles === */
+.btn-apply {
+  background-color: #008080;
+  color: white;
+}
+
+.btn-apply:hover {
+  background-color: #006666;
+}
+
+/* === Learn More button styles === */
+.btn-learn {
+  border: 2px solid #008080;
+  color: #008080;
+  background-color: transparent;
+}
+
+.btn-learn:hover {
+  background-color: #006666;
+  color: white;
+}
